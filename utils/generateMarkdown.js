@@ -37,7 +37,7 @@ ${data.license}
 
 
 ## Contributor:
-* [Github](https://github.com/${data.usename})
+* [Nhi Danis](https://github.com/${data.usename})
 
 
 ## Tests:
