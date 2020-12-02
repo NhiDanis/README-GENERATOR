@@ -60,16 +60,26 @@ function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
         if (err) {
             return console.log(err)
-        }
+        };
         console.log("your README file has been generate!!")
-    })
-}
+    });
+};
 
 // function to initialize program
+const writeFileAsync = util.promisify(writeToFile);
+ async function init() {
+     try {
+         const response = await inquirer.prompt(questions);
+         const readMe = generateMarkdown(response);
 
-function init() {
+    await writeFileAsync("./Sample/README.md", readMe);
+        console.log("Success!!");
 
-}
+     } catch (err) {
+         console.log(err);
+     };
+
+};
 
 // function call to initialize program
 init();
