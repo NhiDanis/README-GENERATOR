@@ -1,6 +1,6 @@
 
   
-# README.md GENERATOR
+# README.md  GENERATOR
 
 ## <img src="https://img.shields.io/badge/LICENSE-mit-green"/>
 
@@ -18,7 +18,9 @@ The quality of a README often differentiates a good project from a bad project. 
 * [Test](#test)
 * [Questions](#question)
 
-## Screen Shot
+## Screen Shot:
+
+![image](https://user-images.githubusercontent.com/68761490/100836503-3fdf5500-3424-11eb-8334-2e8e242f53ac.png)
 
 ## Installation:
 Run `npm install` to install all of the dependencies.
