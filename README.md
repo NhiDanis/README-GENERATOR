@@ -44,7 +44,7 @@ MIT License
 Run `npm test`
 
 ## Question:
-Any Questions please contact me At:
+Any questions please contact me at:
 * [Github Profile](https://github.com/NhiDanis)
 * [Email](a.nhi1001@gmail.com)
 
